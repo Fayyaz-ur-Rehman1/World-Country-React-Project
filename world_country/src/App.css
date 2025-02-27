@@ -76,7 +76,7 @@ button {
 
 /* Layout  */
 
-.container {
+/* .container {
   max-width: 140rem;
   margin: auto;
 }
@@ -95,11 +95,11 @@ button {
 
 .grid-four-cols {
   grid-template-columns: repeat(4, 1fr);
-}
+} */
 
 /* Layout  */
 
-header {
+/* header {
   height: 10rem;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
   background-color: #202020;
@@ -119,9 +119,9 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   /* background-color: yellow; */
-  gap: 3.2rem;
+  /* gap: 3.2rem;
   color: #fff;
 
   & li a {
@@ -132,9 +132,9 @@ nav ul {
 .ham-menu {
   display: none;
 }
-
+ */
 /* media queries  */
-@media screen and (max-width: 998px) {
+/* @media screen and (max-width: 998px) {
   .menu-web {
     display: none;
   }
@@ -166,11 +166,11 @@ nav ul {
       margin-bottom: 1.2rem;
     }
   }
-}
+} */
 
 /* hero section  */
 
-.hero-section .container {
+/* .hero-section .container {
   padding: 3.2rem;
   margin: 9rem auto;
   gap: 6.4rem;
@@ -207,11 +207,11 @@ nav ul {
     width: 80%;
     order: 0;
   }
-}
+} */
 
 /* About Section  */
 
-.section-about {
+/* .section-about {
   margin: 0 auto 9rem auto;
 }
 
@@ -306,11 +306,11 @@ nav ul {
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   max-width: 470px;
-}
+} */
 
 /* footer CSS  */
 
-.footer-contact {
+/* .footer-contact {
   height: 10rem;
   display: flex;
   gap: 2.4rem;
@@ -388,12 +388,12 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
+} */
 
 /* --------------- 
 country Card 
 ------------------ */
-
+/* 
 .country-card {
   margin-top: 3.2rem;
 }
@@ -412,10 +412,10 @@ country Card
     max-width: 50rem;
     height: 16rem;
   }
-}
+} */
 
 /* indivisual card container  */
-.country-details-card {
+/* .country-details-card {
   max-width: 100%;
   margin: 6.4rem auto;
   box-shadow: rgba(168, 163, 184, 0.15) 0px 48px 100px 0px;
@@ -447,9 +447,9 @@ country Card
     display: flex;
     justify-content: flex-end;
   }
-}
+} */
 
-.section-searchFilter {
+/* .section-searchFilter {
   width: 100%;
   display: flex;
   align-items: center;
@@ -509,12 +509,12 @@ country Card
   letter-spacing: 0.1rem;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 /* ------------------ 
 contact us page 
 --------------- */
-
+/* 
 .section-contact {
   margin: 9.6rem auto;
 
@@ -550,13 +550,13 @@ contact us page
       -o-border-radius: 0.3rem;
     }
   }
-}
+} */
 
 /* ----------------
 contact us Page ends here 
 --------------------- */
 
-@media screen and (max-width: 1320px) {
+/* @media screen and (max-width: 1320px) {
   .grid-four-cols {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -579,11 +579,11 @@ contact us Page ends here
   .grid--cols {
     grid-template-columns: 1fr;
   }
-}
+} */
 
 /* //Loader  */
 /* HTML: <div class="loader"></div> */
-.loader {
+/* .loader {
   width: 50px;
   padding: 8px;
   aspect-ratio: 1;
@@ -608,4 +608,4 @@ contact us Page ends here
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */

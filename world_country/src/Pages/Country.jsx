@@ -1,5 +1,7 @@
 export function Country() {
     return (
-        <div>Country Page</div>
+        <div>
+            <h1>Country Page</h1>
+        </div>
     )
 }

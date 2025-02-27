@@ -1,5 +1,8 @@
 export function Contact() {
     return (
-        <div>Contact Page</div>
+        <div>
+            
+            <h1>Contact</h1>
+        </div>
     )
 }
