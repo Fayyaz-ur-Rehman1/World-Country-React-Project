@@ -40,7 +40,7 @@ li {
 }
 
 a {
-  color: #000;
+  color: #e3dbdb;
 
   &:hover {
     color: #2e86c1;
@@ -64,7 +64,6 @@ button {
   background: #202020;
   color: #fff;
   border-radius: 1.5rem;
-  /*thisdoesn'twork*/
   border-width: 0.1rem;
   border-style: solid;
   -webkit-border-radius: 1.5rem;
@@ -76,8 +75,8 @@ button {
 
 /* Layout  */
 
-/* .container {
-  max-width: 140rem;
+.container {
+  max-width: 120rem;
   margin: auto;
 }
 
@@ -95,13 +94,13 @@ button {
 
 .grid-four-cols {
   grid-template-columns: repeat(4, 1fr);
-} */
+}
 
 /* Layout  */
 
-/* header {
+header {
   height: 10rem;
-  box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
+  box-shadow: rgba(191, 188, 188, 0.3) 0px 10px 10px -10px;
   background-color: #202020;
   width: 100%;
 
@@ -119,9 +118,8 @@ button {
 
 nav ul {
   display: flex;
-  justify-content: flex-end; */
-  /* background-color: yellow; */
-  /* gap: 3.2rem;
+  justify-content: flex-end;
+  gap: 3.2rem;
   color: #fff;
 
   & li a {
@@ -132,9 +130,9 @@ nav ul {
 .ham-menu {
   display: none;
 }
- */
-/* media queries  */
-/* @media screen and (max-width: 998px) {
+
+/* media queries   */
+@media screen and (max-width: 998px) {
   .menu-web {
     display: none;
   }
@@ -166,11 +164,11 @@ nav ul {
       margin-bottom: 1.2rem;
     }
   }
-} */
+}
 
 /* hero section  */
 
-/* .hero-section .container {
+.hero-section-main .container {
   padding: 3.2rem;
   margin: 9rem auto;
   gap: 6.4rem;
@@ -207,7 +205,7 @@ nav ul {
     width: 80%;
     order: 0;
   }
-} */
+}
 
 /* About Section  */
 
