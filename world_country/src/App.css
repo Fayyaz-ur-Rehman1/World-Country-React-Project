@@ -209,7 +209,7 @@ nav ul {
 
 /* About Section  */
 
-/* .section-about {
+.section-about {
   margin: 0 auto 9rem auto;
 }
 
@@ -304,11 +304,11 @@ nav ul {
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   max-width: 470px;
-} */
+}
 
 /* footer CSS  */
 
-/* .footer-contact {
+.footer-contact {
   height: 10rem;
   display: flex;
   gap: 2.4rem;
@@ -386,7 +386,7 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-} */
+}
 
 /* --------------- 
 country Card 
@@ -512,7 +512,7 @@ country Card
 /* ------------------ 
 contact us page 
 --------------- */
-/* 
+
 .section-contact {
   margin: 9.6rem auto;
 
@@ -548,13 +548,13 @@ contact us page
       -o-border-radius: 0.3rem;
     }
   }
-} */
+}
 
 /* ----------------
 contact us Page ends here 
 --------------------- */
 
-/* @media screen and (max-width: 1320px) {
+@media screen and (max-width: 1320px) {
   .grid-four-cols {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -577,7 +577,7 @@ contact us Page ends here
   .grid--cols {
     grid-template-columns: 1fr;
   }
-} */
+}
 
 /* //Loader  */
 /* HTML: <div class="loader"></div> */

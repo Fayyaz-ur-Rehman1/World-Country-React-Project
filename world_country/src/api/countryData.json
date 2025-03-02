@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "countryname": "Vatican City",
+        "capital": "Vatican City",
+        "population": 825,
+        "interesting_fact": "Vatican City is the smallest country in the world by both area and population."
+    },
+    {
+        "id": 2,
+        "countryname": "China",
+        "capital": "Beijing",
+        "population": 1402112000,
+        "interesting_fact": "China is home to the Great Wall, which is over 13,000 miles long and is the longest man-made structure in the world."
+    },
+    {
+        "id": 3,
+        "countryname": "Australia",
+        "capital": "Canberra",
+        "population": 25788217,
+        "interesting_fact": "Australia is the only continent in the world without an active volcano."
+    },
+    {
+        "id": 4,
+        "countryname": "Iceland",
+        "capital": "Reykjavik",
+        "population": 376248,
+        "interesting_fact": "Iceland is one of the most eco-friendly countries in the world, with almost 100% of its energy coming from renewable sources."
+    },
+    {
+        "id": 5,
+        "countryname": "Japan",
+        "capital": "Tokyo",
+        "population": 125584838,
+        "interesting_fact": "Japan has more than 6,800 islands, but only around 430 are inhabited."
+    },
+    {
+        "id": 6,
+        "countryname": "Canada",
+        "capital": "Ottawa",
+        "population": 38388453,
+        "interesting_fact": "Canada has the longest coastline in the world, stretching over 202,080 kilometers."
+    },
+    {
+        "id": 7,
+        "countryname": "Brazil",
+        "capital": "Brasília",
+        "population": 216422446,
+        "interesting_fact": "Brazil is home to the Amazon Rainforest, which produces 20% of the world's oxygen."
+    },
+    {
+        "id": 8,
+        "countryname": "South Africa",
+        "capital": "Pretoria",
+        "population": 60414495,
+        "interesting_fact": "South Africa is the only country in the world to have three capital cities: Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judicial)."
+    },
+    {
+        "id": 9,
+        "countryname": "Russia",
+        "capital": "Moscow",
+        "population": 144444359,
+        "interesting_fact": "Russia spans 11 time zones, making it the country with the most time zones in the world."
+    },
+    {
+        "id": 10,
+        "countryname": "India",
+        "capital": "New Delhi",
+        "population": 1428627663,
+        "interesting_fact": "India is the world's largest producer of milk, with over 22% of global milk production."
+    }
+]
