@@ -391,7 +391,7 @@ ul {
 /* --------------- 
 country Card 
 ------------------ */
-/* 
+
 .country-card {
   margin-top: 3.2rem;
 }
@@ -410,10 +410,10 @@ country Card
     max-width: 50rem;
     height: 16rem;
   }
-} */
+}
 
 /* indivisual card container  */
-/* .country-details-card {
+.country-details-card {
   max-width: 100%;
   margin: 6.4rem auto;
   box-shadow: rgba(168, 163, 184, 0.15) 0px 48px 100px 0px;
@@ -445,9 +445,9 @@ country Card
     display: flex;
     justify-content: flex-end;
   }
-} */
+}
 
-/* .section-searchFilter {
+.section-searchFilter {
   width: 100%;
   display: flex;
   align-items: center;
@@ -507,7 +507,7 @@ country Card
   letter-spacing: 0.1rem;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.5);
-} */
+}
 
 /* ------------------ 
 contact us page 
@@ -580,8 +580,7 @@ contact us Page ends here
 }
 
 /* //Loader  */
-/* HTML: <div class="loader"></div> */
-/* .loader {
+.loader {
   width: 50px;
   padding: 8px;
   aspect-ratio: 1;
@@ -606,4 +605,4 @@ contact us Page ends here
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
