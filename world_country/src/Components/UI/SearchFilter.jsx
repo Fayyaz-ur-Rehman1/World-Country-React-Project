@@ -19,8 +19,9 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter, country, se
     }
 
     return <section className="section-searchFilter container">
-        <input type="text" placeholder="Search" value={search} onChange={handleInputChange} />
-
+        <div >
+            <input type="text" placeholder="Search" value={search} onChange={handleInputChange} />
+        </div>
         <div>
             <button onClick={() => sortCountry("asc")}>Asc</button>
         </div>
