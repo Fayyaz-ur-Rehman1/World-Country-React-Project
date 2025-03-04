@@ -17,16 +17,31 @@ export function Country() {
         });
     }, []);
 
-    if (isPanding) return <Loader />
+    if (isPanding) return <Loader />;
+
+    const searchCountry = (country) => {
+        if (search) {
+            return country.name.common.toLowerCase().includes(search.toLowerCase());
+        }
+        return country
+    };
+
+    const filterRegion = (country) => {
+        if (filter === "all") return country;
+        return country.region === filter;
+    }
+
+    const filterCountries = country.filter((country) => searchCountry(country) && filterRegion(country));
+
 
     return (
         <section className="country-section">
 
-            <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />
+            <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} country={country} setCountry={setCountry} />
 
             <ul className="grid grid-four-cols">
                 {
-                    country.map((currCountry, index) => {
+                    filterCountries.map((currCountry, index) => {
                         return <CountryCard country={currCountry} key={index} />
                     })
                 }

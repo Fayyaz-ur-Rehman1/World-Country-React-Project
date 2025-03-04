@@ -13,11 +13,11 @@ export function Contact() {
             <div className="contact-wrapper container">
                 <form action={handelFormSubmit} >
 
-                    <input type="text" required name="username" className="form-control" placeholder="Enter your name" autoComplete="false" />
+                    <input type="text" required name="username" className="form-control" placeholder="Enter your name" autoComplete="off" />
 
-                    <input type="email" className="form-control" required name="email" placeholder="Enter your email" autoComplete="false" />
+                    <input type="email" className="form-control" required name="email" placeholder="Enter your email" autoComplete="off" />
 
-                    <textarea className="form-control" rows="10" placeholder="Enter your message" name="message" required autoComplete="false"></textarea>
+                    <textarea className="form-control" rows="10" placeholder="Enter your message" name="message" required autoComplete="off"></textarea>
 
                     <button type="submit" value="Send" >Send</button>
                 </form>
